@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import OnboardingFlow from './components/OnboardingFlow';
+import OnboardingFlow from './pages/OnboardingFlow';
 import Dashboard from './components/Dashboard';
 import { Toaster } from 'sonner';
 
